@@ -1,4 +1,4 @@
-# Azure AI Vision in Python
+# Azure AI Services
 
 ## Python Vision SDK
 
