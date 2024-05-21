@@ -1,6 +1,31 @@
 # Azure AI Vision in Python
 
-## Provision Resources
+## Python Vision SDK
+
+There is a notebook exploring and formatting the response
+
+Structure
+
+```
+.
+├── azure-script
+│   └── create-vision-resources.sh
+├── README.md
+└── src
+    ├── main.py
+    ├── __pycache__
+    │   ├── utils.cpython-311.pyc
+    │   ├── validate.cpython-311.pyc
+    │   └── vision_functions.cpython-311.pyc
+    ├── sample.jpg
+    ├── utils.py
+    ├── validate.py
+    └── vision_functions.py
+```
+
+**vision_functions.py** has a `VisionFunctions` Class with diferent azure vision api functions, like **OCR** **Face detection** etc.
+
+## Provision Azure Resources
 
 First we create the *AI Vision* resource on our Azure Subscription
 
@@ -111,30 +136,4 @@ Verify
 ```bash
 az group show --name $rg
 ```
-
-## Python Vision SDK
-
-There is a notebook exploring and formatting the response
-
-Structure
-
-```
-.
-├── azure-script
-│   └── create-vision-resources.sh
-├── README.md
-└── src
-    ├── main.py
-    ├── __pycache__
-    │   ├── utils.cpython-311.pyc
-    │   ├── validate.cpython-311.pyc
-    │   └── vision_functions.cpython-311.pyc
-    ├── sample.jpg
-    ├── utils.py
-    ├── validate.py
-    └── vision_functions.py
-```
-
-**vision_functions.py** has a `VisionFunctions` Class with diferent azure vision api functions, like **OCR** **Face detection** etc.
-
-
+Now you can run it
