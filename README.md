@@ -37,6 +37,10 @@ Once the resources are provisioned
 - rename `.env.example` to `.env` and add the _key_ and _endpoint_ of the vision resource
 - run `main.py`
 
+### Result
+
+![img](vision-sdk/src/output_images/image_21-05-2024_a31b606c-4fa7-4bba-bc15-57b7b0741479.jpg)
+
 ## Provision Azure Resources
 
 First we create the *AI Vision* resource on our Azure Subscription
