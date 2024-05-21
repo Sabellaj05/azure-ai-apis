@@ -142,4 +142,4 @@ Verify
 az group show --name $rg
 ```
 
-> ![WARNING] It is not safe to echo secrets on the terminal since there is a history
+> [!WARNING] It is not safe to echo secrets on the terminal since there is a history
