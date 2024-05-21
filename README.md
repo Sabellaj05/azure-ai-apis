@@ -25,6 +25,11 @@ Structure
 
 **vision_functions.py** has a `VisionFunctions` Class with diferent azure vision api functions, like **OCR** **Face detection** etc.
 
+Once the resources are provisioned
+
+- Create a venv
+- install dependencies
+
 ## Provision Azure Resources
 
 First we create the *AI Vision* resource on our Azure Subscription
@@ -136,4 +141,5 @@ Verify
 ```bash
 az group show --name $rg
 ```
-Now you can run it
+
+> [!Warning] It is not safe to echo secrets on the terminal since there is a history
