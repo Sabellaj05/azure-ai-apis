@@ -5,12 +5,15 @@
 There is a notebook exploring and formatting the response
 
 Structure
-
 ```
-.
-├── azure-script
-│   └── create-vision-resources.sh
-├── README.md
+
+├── notebooks
+│   ├── imgs
+│   │   ├── GOOGLE OCR TEST.png
+│   │   ├── output_image.jpg
+│   │   └── sample.jpg
+│   └── Vision-SDK-READ_API.ipynb
+├── requirements.txt
 └── src
     ├── main.py
     ├── __pycache__
@@ -21,6 +24,8 @@ Structure
     ├── utils.py
     ├── validate.py
     └── vision_functions.py
+
+4 directories, 13 files
 ```
 
 **vision_functions.py** has a `VisionFunctions` Class with diferent azure vision api functions, like **OCR** **Face detection** etc.
