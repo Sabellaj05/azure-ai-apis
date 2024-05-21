@@ -1,0 +1,3 @@
+azure-ai-language-conversations
+azure-ai-vision-imageanalysis
+opencv-python
