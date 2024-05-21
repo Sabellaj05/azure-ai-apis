@@ -27,7 +27,9 @@ def main() -> None:
         print("Missing VISION_ENDPOINT and VISION_KEY environment variables")
 
     vision_client = VisionFunctions(ENDPOINT, KEY)
-    image_path = "sample.jpg"
+    curr = os.getcwd()
+    image_path = os.path.join(curr, "sample.jpg")
+    print(image_path)
     url_path = None
 
     # Change functions accordingly 
@@ -36,9 +38,9 @@ def main() -> None:
 
     # create "data" directory if not present
     current = os.getcwd()
-    data_dir = os.path.join(current, "data")
-    if not os.path.exists(data_dir):
-        os.makedirs(data_dir)
+    out_dir = os.path.join(current, "output_images")
+    if not os.path.exists(out_dir):
+        os.makedirs(out_dir)
 
     def extract_boxes(result):
         bounding_boxes = []
@@ -116,7 +118,7 @@ def main() -> None:
         show_image(final_image)
 
     # save image
-    output_path = os.path.join(data_dir, unique_name())
+    output_path = os.path.join(out_dir, unique_name())
     cv2.imwrite(output_path, final_image)
 
 
