@@ -1,3 +1,4 @@
 azure-ai-language-conversations
 azure-ai-vision-imageanalysis
 opencv-python
+python-dotenv
