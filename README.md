@@ -137,8 +137,8 @@ echo "VISION_ENDPOINT: $VISION_ENDPOINT"
 We make the script executable and run it
 
 ```bash
-chmod +x create-vision.sh
-./create-vision.sh
+chmod +x create-vision-resources.sh
+./create-vision-resources.sh
 ```
 If we don't need the resource anymore we **destroy it**
 
