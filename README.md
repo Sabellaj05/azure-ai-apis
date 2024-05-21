@@ -114,6 +114,8 @@ az group show --name $rg
 
 ## Python Vision SDK
 
+There is a notebook exploring and formatting the response
+
 Structure
 
 ```
