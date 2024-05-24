@@ -7,28 +7,29 @@ There is a notebook exploring and formatting the response
 Structure
 ```
 
+.
 ├── notebooks
 │   ├── imgs
-│   │   ├── GOOGLE OCR TEST.png
-│   │   ├── output_image.jpg
-│   │   └── sample.jpg
 │   └── Vision-SDK-READ_API.ipynb
-├── requirements.txt
 └── src
+    ├── app_gr.py
     ├── main.py
+    ├── output_images
     ├── __pycache__
+    │   ├── utils.cpython-310.pyc
     │   ├── utils.cpython-311.pyc
     │   ├── validate.cpython-311.pyc
+    │   ├── vision_functions.cpython-310.pyc
     │   └── vision_functions.cpython-311.pyc
     ├── sample.jpg
+    ├── temp_images
     ├── utils.py
     ├── validate.py
     └── vision_functions.py
-
-4 directories, 13 files
+8 directories, 20 files
 ```
 
-**vision_functions.py** has a `VisionFunctions` Class with diferent azure vision api functions, like **OCR** **Face detection** etc.
+**vision_functions.py** has a `VisionFunctions` Class with diferent azure vision api functions, like **OCR**, **Face detection** etc.
 
 Once the resources are provisioned
 
@@ -37,9 +38,10 @@ Once the resources are provisioned
 - rename `.env.example` to `.env` and add the _key_ and _endpoint_ of the vision resource
 - run `main.py`
 
-### Result
+### Gradio UI
 
-![img](vision-sdk/src/output_images/image_21-05-2024_a31b606c-4fa7-4bba-bc15-57b7b0741479.jpg)
+
+
 
 ## Provision Azure Resources
 
