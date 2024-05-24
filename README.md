@@ -36,7 +36,7 @@ Once the resources are provisioned
 - Create a venv
 - install dependencies
 - rename `.env.example` to `.env` and add the _key_ and _endpoint_ of the vision resource
-- run `main.py`
+- run `main.py` or `app_gr.py` for UI
 
 ### Gradio UI
 
