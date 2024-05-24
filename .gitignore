@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# Gradio
+flagged/
+temp_images/
 # Distribution / packaging
 .Python
 build/
