@@ -98,8 +98,8 @@ def llm_format():
 
 gredio = Interface(
     fn=display_results,
-    inputs=Image(type="numpy", label="Upload an Image"),
-    outputs=[Image(type="numpy", label="Processed Image"), Textbox(label="OCR Results")],
+    inputs=Image(label="Upload an Image"),
+    outputs=[Image(label="Processed Image"), Textbox(label="OCR Results")],
     title="Azure Vision OCR",
     description="Upload an image to perform OCR and display the bounding boxes around the text."
 )
