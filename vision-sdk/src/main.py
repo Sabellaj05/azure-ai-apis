@@ -34,6 +34,7 @@ def main() -> None:
 
     # Change functions accordingly 
     result_from_path = vision_client.ocr_path(image_path)
+  # print(result_from_path)
     #result_from_url = vision_client.ocr_url()
 
     # create "data" directory if not present
