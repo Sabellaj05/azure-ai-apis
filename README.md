@@ -40,6 +40,7 @@ Once the resources are provisioned
 
 ### Gradio UI
 
+![Gradio](media/gradio-test.gif)
 
 
 
