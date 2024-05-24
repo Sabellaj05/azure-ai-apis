@@ -29,7 +29,7 @@ def main() -> None:
     vision_client = VisionFunctions(ENDPOINT, KEY)
     curr = os.getcwd()
     image_path = os.path.join(curr, "sample.jpg")
-    print(image_path)
+    #print(image_path)
     url_path = None
 
     # Change functions accordingly 
